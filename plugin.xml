@@ -23,11 +23,12 @@
      <platform name="android">
         <config-file target="res/xml/config.xml" parent="/*">
             <feature name="Empty" >
-                <param name="android-package" value="com.percolatestudio.cordova.empty.PSEmpty"/>
+                <param name="android-package" value="it.fcorvino.populatedb" />
             </feature>
         </config-file>
 
-        <source-file src="src/android/PSEmpty.java" target-dir="src/com/percolatestudio/cordova/empty" />
+        <source-file src="src/android/PopulateDb.java" target-dir="src/it/fcorvino/populatedb" />
+        <source-file src="src/android/ConfPopulateDb.java" target-dir="src/it/fcorvino/populatedb" />
     </platform>
 
 </plugin>
